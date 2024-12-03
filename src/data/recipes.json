@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "image": "spaghetti.jpg",
+      "name": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": ["500g ground beef", "1 onion", "2 cloves garlic", "400g tomato"],
+      "preparationTime": "30 minutes",
+      "calories": 600
+    },
+    {
+      "id": 2,
+      "image": "salad.jpg",
+      "name": "Chicken Caesar Salad",
+      "description": "Classic salad with grilled chicken and Caesar dressing.",
+      "ingredients": ["500g chicken", "100g lettuce", "50g parmesan", "50g croutons"],
+      "preparationTime": "20 minutes",
+      "calories": 400
+    }
+  ]
+  

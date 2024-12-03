@@ -1,0 +1,64 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white; /* Matches the screenshot background */
+  border-bottom: 1px solid #ddd; /* Subtle border for separation */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333; /* Matches the dark text in the screenshot */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none; /* Removes default list styling */
+}
+
+.nav-links li a {
+  text-decoration: none; /* Removes underline */
+  font-size: 1rem;
+  color: #333; /* Matches dark link color */
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #28a745; /* Green hover effect */
+}
+
+.search-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px; /* Rounded input style */
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #28a745; /* Green border on focus */
+}
+
+.search-icon,
+.user-icon {
+  font-size: 1.2rem;
+  color: #28a745; /* Matches the green icon in the screenshot */
+  cursor: pointer;
+}
+
+.user-icon {
+  background-color: #eaf5ed; /* Light green background */
+  padding: 5px;
+  border-radius: 50%;
+}

@@ -1,0 +1,81 @@
+/* Banner.css */
+.banner {
+  background: url('/src/img/x.jpg') no-repeat center center; /* Ensure the image path is correct */
+  background-size: cover;
+  height: 80vh; /* Ensure it takes up the majority of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text contrast */
+  z-index: 1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: auto;
+}
+
+.banner h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.banner p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #dcdcdc;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.explore-button,
+.feedback-button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.explore-button:hover {
+  background-color: #218838;
+}
+
+.feedback-button {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.feedback-button:hover {
+  background-color: #f8f9fa;
+}
