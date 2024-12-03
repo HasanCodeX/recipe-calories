@@ -1,7 +1,46 @@
 .sidebar {
-    width: 300px;
-    padding: 20px;
-    background-color: #f3f3f3;
-    border-left: 1px solid #ddd;
-  }
-  
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.sidebar ul li button {
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li button:hover {
+  background-color: #e0a800;
+}
